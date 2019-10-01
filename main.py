@@ -27,5 +27,5 @@ ucs = Uniform_Cost.ucs(graph, start, goal)
 
 print('Rota em Largura: ', bfs)
 print('Rota em Profundidade: ', dfs)
-print('Rota com Custo Uniforme: ', ucs, '--- Distância Total: ')
-
+print('Rota com Custo Uniforme: ', ucs)
+print('Distância Total: ', Uniform_Cost.cost(graph, ucs))
